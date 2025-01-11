@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diseno-web</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #0066CC;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #004080;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #0066CC;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .back-button {
+            margin-top: 20px;
+            display: inline-block;
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0066CC;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="assets/images/dragon.png" alt="Logo de Mi Empresa">
+        <h1><a href="index.html">Empresa de Productos</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>diseno-web</h2>
+            <p>Proporcionamos soluciones de alojamiento web seguras y fiables para tu negocio en línea.</p>
+            <button class="back-button" onclick="window.history.back()">Volver</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Empresa | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
